@@ -1,0 +1,59 @@
+.C{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    animation: c 12s infinite alternate;
+}
+.cc{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.ccc{
+    margin-top: 110px;
+    margin-left: 100px;
+    width: 30%;
+    height: 30%;
+    letter-spacing: 4px;
+    font-size: 20px;
+    background: transparent;
+}
+@keyframes c{
+    0%{
+        background-color: transparent;
+    }
+    10%{
+        background-color: rgb(0, 255, 42);
+    }
+    20%{
+        background-color: aqua;
+    }
+    30%{
+        background-color: rgb(234, 255, 0);
+    }
+    40%{
+        background-color: rgb(0, 128, 255);
+    }
+    50%{
+        background-color: rgb(255, 47, 0);
+    }
+    60%{
+        background-color: rgba(225, 255, 0, 0.542);
+    }
+    70%{
+        background-color: rgb(102, 0, 255);
+    }
+    80%{
+        background-color: rgb(255, 0, 221);
+    }
+    90%{
+        background-color: rgb(255, 0, 76);
+    }
+    100%{
+        background-color: rgb(0, 255, 217);
+    }
+}
